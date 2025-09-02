@@ -1,13 +1,42 @@
+.todo {
+    background-color: rgb(40, 43, 65);
+}
+
+#menu{
+    background-color: aqua;
+    padding: 0.4;
+}
+
 #titulo {
     font-family: "Comic Sans MS",cursive,sans-serif;
     font-size: 3.69rem;
-    color: brown;
+    color: rgb(0, 0, 0);
+}
+
+.parrafo{
+    font-family: "Comic Sans MS",cursive,sans-serif;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
 }
 
 .encabesoda {
     text-align: center;
-    background-color: pink;
+    background-color: rgb(222, 227, 177);
     padding: 0.4rem;
     border: 1px solid;
     border-radius: 10px;
+}
+
+#secion {
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#registro {
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;    
 }
