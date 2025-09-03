@@ -1,11 +1,46 @@
 .todo {
     background-color: rgb(40, 43, 65);
+    height: 1900px;
+    
 }
 
+
+
 #menu{
-    background-color: aqua;
+    
     padding: 0.4;
+    flex: 5;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    display:inline-block;
 }
+
+a {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul li{display: inline-block;}
+ul li:hover ul{display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: aqua; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: aqua;}
+
 
 #titulo {
     font-family: "Comic Sans MS",cursive,sans-serif;
@@ -27,6 +62,11 @@
     border-radius: 10px;
 }
 
+.encabesoda .contenido{
+    height: 100%;
+    display: inline-block;
+}
+
 #secion {
     color: white;
     background-color: black;
@@ -40,6 +80,3 @@
     border: 1px solid;
     border-radius: 10px;    
 }
-
-
-
