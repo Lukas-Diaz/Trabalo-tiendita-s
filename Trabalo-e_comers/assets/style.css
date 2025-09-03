@@ -22,6 +22,21 @@ a {
     color: rgb(255, 255, 255);
 }
 
+/* informacion de las cajas */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+.card:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+
+.boxescontainers {
+    padding: 2px 16px;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
 ul {
     display: inline;
     margin: 0;
@@ -45,13 +60,13 @@ ul li ul li:hover {background: aqua;}
 
 
 #titulo {
-    font-family: "Comic Sans MS",cursive,sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 3.69rem;
     color: rgb(0, 0, 0);
 }
 
 .parrafo{
-    font-family: "Comic Sans MS",cursive,sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
     color: rgb(0, 0, 0);
 }
