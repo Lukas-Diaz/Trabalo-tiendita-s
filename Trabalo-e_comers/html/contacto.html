@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="todo">
+    <div>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Categoría</a>
+                    <ul>
+                        <li><a href="#">Electrónicos</a></li>
+                        <li><a href="#">Juguetes</a></li>
+                        <li><a href="#">Ropa</a></li>
+                    </ul>
+                </li>
+                <li><a href="sesion.html">| Inicio de sesión</a></li>
+                <li><a href="registro.html">| Registrarse</a></li>
+                <button id="carrito" onclick="location.href='carrito.html'">
+                    <img src="../assets/img/carrito.png" alt="Caja de compras" id="cajita">
+                </button>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <div class="encabezado">
+        <div class="contenido">
+        <h1 id="titulo">Contacto</h1>
+        <p class="parrafo">¡Dejanos cualquier duda o consulta que tengas!.</p>
+        </div>
+    </div>
+
+    <div class="contactos">
+        <form id="formContacto">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre-entrada" name="nombre" required><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo-entrada" name="correo" required><br><br>
+
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario-entrada" rows="10" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a><img src="../assets/img/mastercard.png" alt="Imagen de Mastercard" class="imgmastercard"></a>
+                <a><img src="../assets/img/visa.png" alt="Imagen de Visa" class="imgvisa"></a>
+                <a><img src="../assets/img/pluxee.png" alt="Imagen de Pluxee" class="imgpluxee"></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="../html/contacto.html">Contáctanos</a></li>
+                    <li><a href="../html/politicas.html">Política de privacidad</a></li>
+                    <li><a href="../html/tyc.html">Términos y condiciones</a></li>
+                    <li><a href="../html/blog.html">Nuestro Blog</a></li>
+                    <li><a href="../html/nosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Tiendita © 2025 Derechos no reservados, somos víctimas del gobierno
+            </div>
+        </div>
+    </footer>
+     <script src="../assets/js/validarContacto.js"></script>
+</body>
+</html>

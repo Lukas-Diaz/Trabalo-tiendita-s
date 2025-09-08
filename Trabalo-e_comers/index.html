@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiendita's</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="todo">
+    <div>
+        <nav id="menu">
+            <ul>
+                
+                <li><a href="html/sesion.html">| Inicio de sesión</a></li>
+                <li><a href="html/registro.html">| Registrarse</a></li>
+                <button id="carrito" onclick="alert('Debe de iniciar sesion para acceder al carrito')"><img src="assets/img/carrito.png" alt="Caja de compras" id="cajita"></button>
+            </ul>
+        </nav>
+    </div>
+    <!--encabesado-->
+    <div class="encabezado">
+        <div class="contenido">
+            <h1 id="titulo">Tiendita's script</h1>
+            <p class="parrafo">Bienvenidos a nuestra página de comercio electronico de loot boxes IRL</p>
+        </div>
+        <img id="imagen-logo" alt="Logo de empresa" src="assets/img/cajita-logo.png">
+    </div>
+    
+    <!--tipos de cajas a la venta-->
+    <h2 class="seccion">Productos</h2>
+    <div class="productos" id="productos">
+        <!--Productos cargan aqui-->
+    </div>
+        
+    <footer>
+            <div class="footer">
+                <div class="row">
+                    <a> <img src="assets/img/mastercard.png" alt="Imagen de Mastercard" class="imgmastercard"></a>
+                    <a> <img src="assets/img/visa.png" alt="Imagen de Visa" class="imgvisa"> </a>
+                    <a> <img src="assets/img/pluxee.png" alt="Imagen de Pluxee" class="imgpluxee"> </a>
+                </div>
+            
+                <div class="row">
+                    <ul>
+                        <li><a href="html/contacto.html">Contáctanos</a></li>
+                        <li><a href="html/politicas.html">Política de privacidad</a></li>
+                        <li><a href="html/tyc.html">Términos y condiciones</a></li>
+                        <li><a href="html/blog.html">Nuestro Blog</a></li>
+                        <li><a href="html/nosotros.html">Sobre nosotros</a></li>
+                    </ul>
+                </div>
+            
+                <div class="row">
+                    Tiendita © 2025 Derechos no reservados, somos víctimas del gobierno 
+                </div>
+            </div>
+    </footer>
+</body>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/ArrayProducto.js"></script>
+<script src="assets/js/productos.js"></script>
+</html>

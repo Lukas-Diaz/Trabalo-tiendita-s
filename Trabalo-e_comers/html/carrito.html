@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="todo">
+    <div>
+        <nav id="menu">
+            <ul>
+                
+                <p class="parrafo"id="name_user"></p>
+                <button id="carrito" onclick="location.href='../html/inner_sesion.html'"><img src="../assets/img/carrito.png" alt="Caja de compras" id="cajita"></button>
+            </ul>
+            
+        </nav>
+    </div>
+
+    <!--encabezado-->
+    <div class="encabezado">
+        <div class="contenido">
+            <h1 id="titulo">Tiendita's script</h1>
+            <p class="parrafo">Bienvenidos a nuestra página de comercio electronico de loot boxes IRL</p>
+        </div>
+        <img class="imagen contenido" alt="Logo de empresa" src="../assets/img/imagen-ejemplo.jpeg">
+    </div>
+
+    <!--Contenido del carrito-->
+    <h2 class="seccion">Productos</h2>
+    <div class="productos" id="productos">
+        <!--Productos cargan aqui-->
+    </div>
+
+
+    <footer>
+            <div class="footer">
+                <div class="row">
+                    <a> <img src="../assets/img/mastercard.png" alt="Imagen de Mastercard" class="imgmastercard"></a>
+                    <a> <img src="../assets/img/visa.png" alt="Imagen de Visa" class="imgvisa"> </a>
+                    <a> <img src="../assets/img/pluxee.png" alt="Imagen de Pluxee" class="imgpluxee"> </a>
+                </div>
+            
+                <div class="row">
+                    <ul>
+                        <li><a href="#">Nuestros contactos</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                    </ul>
+                </div>
+            
+                <div class="row">
+                    Tiendita © 2025 Derechos no reservados, somos víctimas del gobierno 
+                </div>
+            </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            getInfousuario(); // Llama a tu función aquí
+        });
+    </script>
+</body>
+<script src="../assets/js/data.js"></script>
+<script src="../assets/js/ArrayProducto.js"></script>
+<script src="../assets/js/producto.js"></script>
+</html>
