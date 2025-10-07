@@ -1,9 +1,9 @@
 let footer = `<footer>
         <div class="footer">
             <div class="row">
-                <a><img src="../assets/img/mastercard.png" alt="Imagen de Mastercard" class="imgmastercard"></a>
-                <a><img src="../assets/img/visa.png" alt="Imagen de Visa" class="imgvisa"></a>
-                <a><img src="../assets/img/pluxee.png" alt="Imagen de Pluxee" class="imgpluxee"></a>
+                <a><img src="../assets/img/mastercard.webp" alt="Imagen de Mastercard" class="imgmastercard"></a>
+                <a><img src="../assets/img/visa.webp" alt="Imagen de Visa" class="imgvisa"></a>
+                <a><img src="../assets/img/pluxee.webp" alt="Imagen de Pluxee" class="imgpluxee"></a>
             </div>
 
             <div class="row">

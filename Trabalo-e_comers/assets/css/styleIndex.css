@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.todo {
+    background-color: rgb(40, 43, 65);
+    height: 12rem;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+.encabezado {
+    padding: 1.5rem 2rem;
+    text-align: center;
+    background-color: rgb(222, 227, 177);
+    border: 2px solid;
+    width: 100%;
+}
+
+.encabezado .contenido{
+    height: 100%;
+    display: inline-block;
+    
+}
+
+#imagen-logo{
+    height: 200px;
+}
