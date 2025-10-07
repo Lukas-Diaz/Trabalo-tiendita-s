@@ -12,11 +12,17 @@
 
 
 .encabezado {
-    padding: 1.5rem 2rem;
+    
     text-align: center;
+    flex: 5;
+    object-position: center;
+    color: rgb(222, 227, 177);
+    font-size: 30px;
+    padding: 15px;
+    border: 5px solid;
+    border-radius: 18px;
     background-color: rgb(222, 227, 177);
-    border: 2px solid;
-    width: 100%;
+    margin: 5px;
 }
 
 .encabezado .contenido{
@@ -37,9 +43,10 @@
     color: #FFE2C7;
     font-size: 30px;
     padding: 15px;
-    border: 2px solid;
+    border: 5px solid;
     border-radius: 18px;
     background-color: #FFE2C7;
+    margin: 5px;
 
 }
 
