@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../assets/css/styleCarrito.css">
+    <link rel="stylesheet" href="../assets/css/styleFooter.css">
+
+</head>
+<body class="todo">
+    <div>
+        <nav id="menu">
+            <ul>
+                
+                <p class="parrafo"id="name_user"></p>
+                <button id="carrito" onclick="location.href='../html/inner_sesion.html'"><img src="../assets/img/carrito.webp" alt="Caja de compras" id="cajita"></button>
+            </ul>
+            
+        </nav>
+    </div>
+
+    <!--encabezado-->
+    <div class="encabezado">
+        <div class="contenido">
+            <h1 id="titulo">Tiendita's script</h1>
+            <p class="parrafo">Bienvenidos a nuestra página de comercio electronico de loot boxes IRL</p>
+        </div>
+        <img id="imagen-logo" alt="Logo de empresa" src="../assets/img/cajita-logo.webp">
+    </div>
+
+    <!--Contenido del carrito-->
+    <h2 class="seccion">Productos</h2>
+    <div class="productos" id="productos">
+        <!--Productos cargan aqui-->
+    </div>
+
+
+    <div id="footer"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            getInfousuario(); 
+        });
+    </script>
+</body>
+<script src="../assets/js/data.js"></script>
+<script src="../assets/js/ArrayProducto.js"></script>
+<script src="../assets/js/producto.js"></script>
+<script src="../assets/js/Footer.js"></script>
+</html>
