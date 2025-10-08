@@ -155,3 +155,59 @@ ul li ul li:hover {background: rgb(159, 195, 242);}
     padding-right: 1rem;
     color: rgb(0, 0, 0);
 }
+
+ .bloque-tyc {
+        background-color: rgba(255, 255, 255);
+        padding: 2rem;
+        margin: 2rem auto;
+        width: 80%;
+        max-width: 900px;
+        border-radius: 15px;
+        line-height: 1.6;
+    }
+
+    .bloque-tyc h2 {
+        margin-top: 1.5rem;
+        color: #000000;
+    }
+
+    .bloque-tyc p {
+        margin-bottom: 1rem;
+    }
+    /*bloque del blog*/
+        .blog-bloque {
+    background-color: rgba(255, 255, 255);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 15px;
+    overflow: auto;
+    }
+
+    .blog-bloque h2 {
+        text-align: center;
+        margin-top: 1.5rem;
+        color: #000000;
+    }
+
+    .imgblog1{
+        height: 130px;
+        width: 120px;
+        float: right;
+    }
+
+    /*contacto y formulario*/
+
+    .contactos {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .verde{
+        color: green;
+    }
+    .morado{
+        color:rgb(40, 43, 65);
+    }
